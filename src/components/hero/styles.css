@@ -1,0 +1,33 @@
+.container {
+  background-color: var(--primary-background-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.125rem; 
+  padding: 18.75rem;
+}
+
+.container img {
+  width: 150px;
+  height: 150px;
+  border-radius: 999999px;
+}
+
+div h1 {
+  font-size: 4.5rem;
+  font-weight: 800;
+}
+h1 span {
+  color: var(--primary-color);
+}
+
+@media (max-width:768px) {
+  .container {
+    flex-direction: column;
+    padding: 10rem;
+text-align: center;
+  }
+  .container img {
+display: none;
+  }
+}

@@ -1,0 +1,33 @@
+#contact {
+  text-align: center;
+  
+}
+
+#contact p {
+  font-size: 1.25rem;
+  width: 34rem;
+  margin-bottom: 5.625rem;
+ margin-inline : auto;
+}
+#contact button {
+  width: 142px;
+  height: 43px;
+}
+#medias {
+  display: flex;
+  justify-content: center;
+  gap: 1.25rem;
+  margin-top: 5.625rem;
+  margin-bottom: 7.5rem;
+  
+}
+
+@media (max-width: 768px) {
+  #contact {
+    padding-inline: 2rem;
+  }
+  #contact p {
+    width: 20rem;
+  }
+}
+

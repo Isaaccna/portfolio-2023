@@ -1,0 +1,22 @@
+.info {
+display: flex;
+margin-top:2.1875rem;
+gap: 4.6875rem;
+}
+.column {
+  display : flex;
+  flex-direction: column;
+  gap: 0.625rem;
+}
+.row {
+  display : flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.25rem;
+}
+.question {
+  font-weight: 600;
+}
+.answer {
+  font-size: 0.875rem;
+}

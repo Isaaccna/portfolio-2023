@@ -1,0 +1,22 @@
+#projectImage {
+  width: 385px;
+  height: 215px;
+  margin-bottom: 0.9375rem;
+}
+#technologies {
+  display: flex;
+  gap: 0.5625rem;
+}
+#technologies span {
+  border: 1px solid var(--primary-text-color);
+  border-radius: 5px;
+  font-size: 0.875rem;
+  line-height: 19.07px;
+  padding: 0.25rem 0.375rem;
+}
+
+@media (max-width: 768px) {
+  #projectImage {
+    width: 100%;
+  }
+}
